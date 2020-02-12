@@ -1,0 +1,16 @@
+[package]
+name = "digital-sign"
+version = "0.1.0"
+authors = ["leeyr <leeyr338@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+clap = "^2.31.2"
+types = { version = "^0.4.0", package = "ethereum-types" }
+chrono = "0.4"
+tiny-keccak = { version = "2.0", features = ["keccak"] }
+lazy_static = "^1.0"
+secp256k1 = { version = "0.15.0", features = ["recovery"]}
+hex = "0.4"
+base64 = "0.11"
